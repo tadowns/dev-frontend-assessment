@@ -15,6 +15,7 @@ import ConfirmModal from './elements/ConfirmModal'
 import Timestamp from './elements/Timestamp'
 import Number from './elements/Number'
 import Money from './elements/Money'
+import TickerChange from './elements/TickerChange'
 import DropdownButton from './elements/DropdownButton'
 import DropdownSelection from './elements/DropdownSelection'
 import PluralWord from './elements/PluralWord';
@@ -30,6 +31,7 @@ Vue.component('timestamp', Timestamp);
 Vue.component('number', Number);
 Vue.component('money', Money);
 Vue.component('dropdown-button', DropdownButton);
+Vue.component('ticker-change', TickerChange);
 Vue.component('dropdown-selection', DropdownSelection);
 Vue.component('plural-word', PluralWord);
 Vue.component('oxford-comma-list', OxfordCommaList);
